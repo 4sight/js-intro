@@ -27,3 +27,4 @@ var strongest = stronger.concat('!');
 
 var chorus = ['work it', 'make it', 'do it', 'makes us', 'harder', 'better', 'faster', 'stronger', 'more than', 'hour', 'our', 'after', 'our', 'work is', 'never', 'over']
 
+var lyrics = chorus.join();
