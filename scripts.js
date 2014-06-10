@@ -1,9 +1,11 @@
+function everything() {
+
 //Declaring variables.
 
 var work = 'work it';
 console.log(work);
-var do = 'do it';
-console.log(do);
+var doIt = 'do it';
+console.log(doIt);
 var makes = 'makes us';
 console.log(makes);
 var harder = 'harder';
@@ -15,16 +17,49 @@ console.log(faster);
 var stronger = 'stronger';
 console.log(stronger);
 
-//Splitting the variable work by spaces
+//Splitting the variable work by spaces.
 
-work.split(' ');
+var workSplit = work.split(' ');
+console.log(workSplit);
 
-//Concating exclamation point to the last line of the chorus.
+//Adding exclamation point.
 
 var strongest = stronger.concat('!');
+console.log(strongest);
 
-//Delcaring an array
+//Delcaring an array.
 
-var chorus = ['work it', 'make it', 'do it', 'makes us', 'harder', 'better', 'faster', 'stronger', 'more than', 'hour', 'our', 'after', 'our', 'work is', 'never', 'over']
+var lyricsArray = ['work it', 'make it', 'do it', 'makes us', 'harder', 'better', 'faster', 'stronger', 'more than', 'our', 'hour', 'after', 'our', 'work is', 'never', 'over']
+console.log(lyricsArray);
 
-var lyrics = chorus.join();
+//Join array of phrases into the lyrics.
+
+var lyricsString = lyricsArray.join();
+console.log(lyricsString);
+
+//Find the length of the lyrics.
+
+var lyricsLength = lyricsString.length;
+console.log(lyricsLength);
+
+//Adding exclamation point to the array.
+
+var lyricsEmphasized = lyricsArray.push('!');
+console.log(lyricsEmphasized);
+
+//Remove exclamation point from the array.
+
+var exclamation = lyricsArray.pop();
+console.log(exclamation);
+
+//Reverse order of words/phrases in lyrics.
+
+var reverse = lyricsArray.reverse();
+console.log(reverse);
+
+//Get the second part of the lyrics.
+
+var end = lyricsArray.splice(4);
+console.log(end);
+
+}
