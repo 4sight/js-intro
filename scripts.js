@@ -1,0 +1,14 @@
+var work = 'work it';
+console.log(work);
+var do = 'do it';
+console.log(do);
+var makes = 'makes us';
+console.log(makes);
+var harder = 'harder';
+console.log(harder);
+var better = 'better';
+console.log(better);
+var faster = 'faster';
+console.log(faster);
+var stronger = 'stronger';
+console.log(stronger);
