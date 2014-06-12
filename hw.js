@@ -28,4 +28,17 @@ function hw() {
 	else {
 		console.log('What can I get you to drink, Prince?');
 	}
+
+	var bestSongs = ['Disorder', 'Love Will Tear Us Apart', 'I Remember Nothing'];
+	var howManySongs = bestSongs.length;
+
+	var joyDivision = {
+		bestSongs: ['Disorder', 'Love Will Tear Us Apart', 'I Remember Nothing'],
+		howManySongs: bestSongs.length,
+		bestAlbum: 'Unknown Pleasures',
+		listSongs: function() {
+			bestSongs.join(', ');
+		}
+	}	
+	console.log(joyDivision.listSongs);
 }
