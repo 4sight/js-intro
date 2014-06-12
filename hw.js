@@ -45,4 +45,12 @@ function hw() {
 	}
 	console.log(nwa.name + ' was together for ' + nwa.stats.yearsTogether + ' years and released ' + nwa.stats.albums + ' albums. Some of my favorite songs by them: ' + nwa.favoriteSongs.join(', '));
 
+	var theSmiths = {
+		name: 'The Smiths',
+		members: 4,
+		favoriteSongs: ['This Charming Man', 'Hand in Glove', 'There is a Light That Never Goes Out'],
+		stats: {yearsTogether: 5, albums: 4}
+	}
+	console.log(theSmiths.name + ' was together for ' + theSmiths.stats.yearsTogether + ' years and released ' + theSmiths.stats.albums + ' albums. Some of my favorite songs by them: ' + theSmiths.favoriteSongs.join(', '));
+
 }
