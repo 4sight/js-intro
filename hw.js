@@ -1,28 +1,30 @@
-// Declaring everyone's age
+function hw() {
 
-var greeleyAge = new Date().getFullYear() - 1988;
-var mcLovinAge = new Date().getFullYear() - 1996;
-var princeAge = new Date().getFullYear() - 1958;
+	// Declaring everyone's age
 
-//Deciding if everyone gets to drink
+	var greeleyAge = new Date().getFullYear() - 1988;
+	var mcLovinAge = new Date().getFullYear() - 1996;
+	var princeAge = new Date().getFullYear() - 1958;
 
-if (mcLovinAge < 21) {
-	console.log('Get outta my bar, McLovin!');
-}
-else {
-	console.log('What can I get you to drink, McLovin?');
-}
+	//Deciding if everyone gets to drink
 
-if (greeleyAge < 21) {
-	console.log('Get outta my bar, Greeley!');
-}
-else {
-	console.log('What can I get you to drink, Greeley?');
-}
+	if (mcLovinAge < 21) {
+		console.log('Get outta my bar, McLovin!');
+	}
+	else {
+		console.log('What can I get you to drink, McLovin?');
+	}
 
-if (princeAge < 21) {
-	console.log('Get outta my bar, Prince!');
-}
-else {
-	console.log('What can I get you to drink, Prince?');
-}
+	if (greeleyAge < 21) {
+		console.log('Get outta my bar, Greeley!');
+	}
+	else {
+		console.log('What can I get you to drink, Greeley?');
+	}
+
+	if (princeAge < 21) {
+		console.log('Get outta my bar, Prince!');
+	}
+	else {
+		console.log('What can I get you to drink, Prince?');
+	}
