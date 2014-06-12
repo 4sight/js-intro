@@ -92,4 +92,13 @@ function hw() {
 		stats: {yearsTogether: 12, albums: 9}
 	}
 	console.log(ledZeppelin.name + ' was together for ' + ledZeppelin.stats.yearsTogether + ' years and released ' + ledZeppelin.stats.albums + ' albums. Some of my favorite songs by them: ' + ledZeppelin.favoriteSongs.join(', '));
+
+	var beeGees = {
+		name: 'The Bee Gees',
+		members: 3,
+		favoriteSongs: ['Stayin\' Alive', 'Night Fever', 'More Than a Woman'],
+		stats: {yearsTogether: 45, albums: 22}
+	}
+	console.log(beeGees.name + ' was together for ' + beeGees.stats.yearsTogether + ' years and released ' + beeGees.stats.albums + ' albums. Some of my favorite songs by them: ' + beeGees.favoriteSongs.join(', '));
+
 }
