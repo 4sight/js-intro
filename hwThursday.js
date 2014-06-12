@@ -1052,11 +1052,12 @@ function all() {
 	for (var i = 0; i < items.length; i++) {
 		materials[i] = items[i].materials;
 	}
-	materials[0].every(function(material, index, array) {
-		if (material = 'wood') {
-			console.log('is made of wood.')
-			return true;
-		}
-		return false;
-	})
+
+	for (var i = 0; i < items.length; i++) {
+		materials[i].every(function(material, index, array) {
+			if (material = 'wood') {
+				return console.log('is made of wood.')
+			}
+		})
+	}
 }
