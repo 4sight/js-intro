@@ -29,6 +29,8 @@ function hw() {
 		console.log('What can I get you to drink, Prince?');
 	}
 
+	//Declaring objects for some of my favorite bands that aren't together anymore and outputting some data about them in a readable format.
+
 	var joyDivision = {
 		name: 'Joy Division',
 		members: 4,
