@@ -1044,19 +1044,19 @@ function all() {
 		i++;
 		search[i] = items[i].currency_code;
 	}
-	console.log(items[i].title + ' costs £' + items[i].price);
+	console.log(items[i].title + ' costs \£' + items[i].price);
 
 	// Item 3
 
 	materials = Array();
-	var i = 0;
 	for (var i = 0; i < items.length; i++) {
 		materials[i] = items[i].materials;
-		for (var j = 0; j < materials[j]; j++) {
-			if (materials[j] = wood) {
-				console.log(items.title + 'is made of wood.')
-			}
-		}
-		console.log(materials);
 	}
+	materials[0].every(function(material, index, array) {
+		if (material = 'wood') {
+			console.log('is made of wood.')
+			return true;
+		}
+		return false;
+	})
 }
