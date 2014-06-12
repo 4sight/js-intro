@@ -36,7 +36,7 @@ function hw() {
 		bestSongs: ['Disorder', 'Love Will Tear Us Apart', 'I Remember Nothing'],
 		howManySongs: bestSongs.length,
 		bestAlbum: 'Unknown Pleasures',
-		listSongs: function() {
+		listSongs: function(bestSongs) {
 			bestSongs.join(', ');
 		}
 	}	
