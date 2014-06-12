@@ -53,4 +53,30 @@ function hw() {
 	}
 	console.log(theSmiths.name + ' was together for ' + theSmiths.stats.yearsTogether + ' years and released ' + theSmiths.stats.albums + ' albums. Some of my favorite songs by them: ' + theSmiths.favoriteSongs.join(', '));
 
+	var rage = {
+		name: 'Rage Against the Machine',
+		members: 4,
+		favoriteSongs: ['Calm Like a Bomb', 'Bulls on Parade', 'Sleep Now in the Fire'],
+		stats: {yearsTogether: 9, albums: 4}
+	}
+	console.log(rage.name + ' was together for ' + rage.stats.yearsTogether + ' years and released ' + rage.stats.albums + ' albums. Some of my favorite songs by them: ' + rage.favoriteSongs.join(', '));
+
+	var grandmasterFlash = {
+		name: 'Grandmaster Flash & The Furious Five',
+		members: 6,
+		favoriteSongs: ['The Message', 'White Lines', 'New York New York'],
+		stats: {yearsTogether: 4, albums: 2}
+	}
+	console.log(grandmasterFlash.name + ' was together for ' + grandmasterFlash.stats.yearsTogether + ' years and released ' + grandmasterFlash.stats.albums + ' albums. Some of my favorite songs by them: ' + grandmasterFlash.favoriteSongs.join(', '));
+
+	var clash = {
+		name: 'The Clash',
+		members: 4,
+		favoriteSongs: ['Lost in the Supermarket', 'Should I Stay or Should I Go?', 'The Guns of Brixton'],
+		stats: {yearsTogether: 10, albums: 6}
+	}
+	console.log(clash.name + ' was together for ' + clash.stats.yearsTogether + ' years and released ' + clash.stats.albums + ' albums. Some of my favorite songs by them: ' + clash.favoriteSongs.join(', '));
+
+
+
 }
