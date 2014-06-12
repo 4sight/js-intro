@@ -1,65 +1,70 @@
 function everything() {
 
-//Declaring variables.
+	//Declaring variables.
 
-var work = 'work it';
-console.log(work);
-var doIt = 'do it';
-console.log(doIt);
-var makes = 'makes us';
-console.log(makes);
-var harder = 'harder';
-console.log(harder);
-var better = 'better';
-console.log(better);
-var faster = 'faster';
-console.log(faster);
-var stronger = 'stronger';
-console.log(stronger);
+	var work = 'work it';
+	console.log(work);
+	var doIt = 'do it';
+	console.log(doIt);
+	var makes = 'makes us';
+	console.log(makes);
+	var harder = 'harder';
+	console.log(harder);
+	var better = 'better';
+	console.log(better);
+	var faster = 'faster';
+	console.log(faster);
+	var stronger = 'stronger';
+	console.log(stronger);
 
-//Splitting the variable work by spaces.
+	//Splitting the variable work by spaces.
 
-var workSplit = work.split(' ');
-console.log(workSplit);
+	var workSplit = work.split(' ');
+	console.log(workSplit);
 
-//Adding exclamation point.
+	//Adding exclamation point.
 
-var strongest = stronger.concat('!');
-console.log(strongest);
+	var strongest = stronger.concat('!');
+	console.log(strongest);
 
-//Delcaring an array.
+	//Delcaring an array.
 
-var lyricsArray = ['work it', 'make it', 'do it', 'makes us', 'harder', 'better', 'faster', 'stronger', 'more than', 'our', 'hour', 'after', 'our', 'work is', 'never', 'over']
-console.log(lyricsArray);
+	var lyricsArray = ['work it', 'make it', 'do it', 'makes us', 'harder', 'better', 'faster', 'stronger', 'more than', 'our', 'hour', 'after', 'our', 'work is', 'never', 'over']
+	console.log(lyricsArray);
 
-//Join array of phrases into the lyrics.
+	//Count the number of phrases in the lyrics array.
 
-var lyricsString = lyricsArray.join();
-console.log(lyricsString);
+	var howManyPhrases = lyricsArray.length
+	console.log(howManyPhrases);
 
-//Find the length of the lyrics.
+	//Join array of phrases into the lyrics.
 
-var lyricsLength = lyricsString.length;
-console.log(lyricsLength);
+	var lyricsString = lyricsArray.join();
+	console.log(lyricsString);
 
-//Adding exclamation point to the array.
+	//Find the length of the lyrics.
 
-var lyricsEmphasized = lyricsArray.push('!');
-console.log(lyricsEmphasized);
+	var lyricsLength = lyricsString.length;
+	console.log(lyricsLength);
 
-//Remove exclamation point from the array.
+	//Adding exclamation point to the array.
 
-var exclamation = lyricsArray.pop();
-console.log(exclamation);
+	var lyricsEmphasized = lyricsArray.push('!');
+	console.log(lyricsEmphasized);
 
-//Reverse order of words/phrases in lyrics.
+	//Remove exclamation point from the array.
 
-var reverse = lyricsArray.reverse();
-console.log(reverse);
+	var exclamation = lyricsArray.pop();
+	console.log(exclamation);
 
-//Get the second part of the lyrics.
+	//Reverse order of words/phrases in lyrics.
 
-var end = lyricsArray.splice(4);
-console.log(end);
+	var reverse = lyricsArray.reverse();
+	console.log(reverse);
+
+	//Get the second part of the lyrics.
+
+	var end = lyricsArray.splice(4);
+	console.log(end);
 
 }
