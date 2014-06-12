@@ -101,4 +101,12 @@ function hw() {
 	}
 	console.log(beeGees.name + ' was together for ' + beeGees.stats.yearsTogether + ' years and released ' + beeGees.stats.albums + ' albums. Some of my favorite songs by them: ' + beeGees.favoriteSongs.join(', '));
 
+	var blueOysterCult = {
+		name: 'Blue Oyster Cult',
+		members: 5,
+		favoriteSongs: ['I Love the Night', 'Don\'t Fear the Reaper', 'Shooting Shark'],
+		stats: {yearsTogether: 13, albums: 9}
+	}
+	console.log(blueOysterCult.name + ' was together for ' + blueOysterCult.stats.yearsTogether + ' years and released ' + blueOysterCult.stats.albums + ' albums. Some of my favorite songs by them: ' + blueOysterCult.favoriteSongs.join(', '));
+
 }
