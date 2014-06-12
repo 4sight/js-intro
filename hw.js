@@ -30,12 +30,10 @@ function hw() {
 	}
 
 	var joyDivision = {
+		name: 'Joy Division',
+		members: 4,
 		favoriteSongs: ['Disorder', 'Love Will Tear Us Apart', 'I Remember Nothing'],
-		howManyFavoriteSongs: favoriteSongs.length,
-		bestAlbum: 'Unknown Pleasures',
-		listSongs: bestSongs.join(', '),
-		stats: {members: 4, albums: 2}
-	}	
-	
-
+		stats: {yearsTogether: 4, albums: 2}
+	}
+	console.log(joyDivision.name + ' was together for ' + joyDivision.stats.yearsTogether + ' years and released ' + joyDivision.stats.albums + ' albums. Some of my favorite songs by them: ' + joyDivision.favoriteSongs.join(', '));
 }
