@@ -1033,4 +1033,19 @@ function all() {
 	var average = sum / items.length;
 	var averageRounded = +average.toFixed(2);
 	console.log('The average price is $' + averageRounded);
+
+	search = Array();
+	var i = 0;
+	while (search[i] !== 'GBP') {
+		i++;
+		search[i] = items[i].currency_code;
+	}
+	console.log(items[i].title + ' costs £' + items[i].price);
+
+	materials = Array();
+	var i = 0;
+	for (var i = 0; i < items.length; i++) {
+		materials = items[i].materials;
+		console.log(materials);
+	}
 }
