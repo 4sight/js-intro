@@ -1026,6 +1026,8 @@ function all() {
 	  "used_manufacturer": false
 	}]
 	
+	// Item 1
+
 	var sum = 0;
 	for (var i = 0; i < items.length; i++) {
 		sum += items[i].price;
@@ -1033,6 +1035,8 @@ function all() {
 	var average = sum / items.length;
 	var averageRounded = +average.toFixed(2);
 	console.log('The average price is $' + averageRounded);
+
+	// Item 2
 
 	search = Array();
 	var i = 0;
@@ -1042,10 +1046,17 @@ function all() {
 	}
 	console.log(items[i].title + ' costs £' + items[i].price);
 
+	// Item 3
+
 	materials = Array();
 	var i = 0;
 	for (var i = 0; i < items.length; i++) {
-		materials = items[i].materials;
+		materials[i] = items[i].materials;
+		for (var j = 0; j < materials[j]; j++) {
+			if (materials[j] = wood) {
+				console.log(items.title + 'is made of wood.')
+			}
+		}
 		console.log(materials);
 	}
 }
