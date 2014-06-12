@@ -36,4 +36,13 @@ function hw() {
 		stats: {yearsTogether: 4, albums: 2}
 	}
 	console.log(joyDivision.name + ' was together for ' + joyDivision.stats.yearsTogether + ' years and released ' + joyDivision.stats.albums + ' albums. Some of my favorite songs by them: ' + joyDivision.favoriteSongs.join(', '));
+
+	var nwa = {
+		name: 'N.W.A.',
+		members: 5,
+		favoriteSongs: ['Dopeman', 'Fuck Tha Police', 'Something to Dance To'],
+		stats: {yearsTogether: 5, albums: 3}
+	}
+	console.log(nwa.name + ' was together for ' + nwa.stats.yearsTogether + ' years and released ' + nwa.stats.albums + ' albums. Some of my favorite songs by them: ' + nwa.favoriteSongs.join(', '));
+
 }
