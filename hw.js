@@ -77,6 +77,19 @@ function hw() {
 	}
 	console.log(clash.name + ' was together for ' + clash.stats.yearsTogether + ' years and released ' + clash.stats.albums + ' albums. Some of my favorite songs by them: ' + clash.favoriteSongs.join(', '));
 
+	var tribeCalledQuest = {
+		name: 'A Tribe Called Quest',
+		members: 3,
+		favoriteSongs: ['Electric Relaxation', 'Midnight Marauders', 'Verses from the Abstract'],
+		stats: {yearsTogether: 28, albums: 5}
+	}
+	console.log(tribeCalledQuest.name + ' was together for ' + tribeCalledQuest.stats.yearsTogether + ' years and released ' + tribeCalledQuest.stats.albums + ' albums. Some of my favorite songs by them: ' + tribeCalledQuest.favoriteSongs.join(', '));
 
-
+	var ledZeppelin = {
+		name: 'Led Zeppelin',
+		members: 4,
+		favoriteSongs: ['When the Levee Breaks', 'Stairway to Heaven', 'The Bridge'],
+		stats: {yearsTogether: 12, albums: 9}
+	}
+	console.log(ledZeppelin.name + ' was together for ' + ledZeppelin.stats.yearsTogether + ' years and released ' + ledZeppelin.stats.albums + ' albums. Some of my favorite songs by them: ' + ledZeppelin.favoriteSongs.join(', '));
 }
