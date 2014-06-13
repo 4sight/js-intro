@@ -1052,7 +1052,9 @@ function all() {
 	for (var i = 0; i < items.length; i++) {
 		materials[i] = items[i].materials;
 		console.log(materials[i]);
-		materials[i].every(function(material, index, array) {
+		var j = materials[i].length;
+		console.log(j);
+		materials[j].every(function(material, index, array) {
 			
 			if (material = 'wood') {
 				return console.log('is made of wood.')
