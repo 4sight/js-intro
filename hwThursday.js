@@ -1051,9 +1051,13 @@ function all() {
 	var materials = Array();
 	for (var i = 0; i < items.length; i++) {
 		materials[i] = items[i].materials;
-		console.log(materials[i]);
-		var j = materials[i].length;
-		console.log(j);
-		
+		// console.log(materials[i]);
+		var materialsLengths = materials[i].length;
+		// console.log(materialsLengths);
+		for (var j = 0; j < materialsLengths; j++) {
+			if (materials[i][j] = 'wood') {
+				console.log(materials[i][j].title + 'is made of wood.')
+			}
+		}
 	}	
 }
