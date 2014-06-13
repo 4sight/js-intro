@@ -1053,10 +1053,9 @@ function all() {
 	items.forEach(function (a) {
 		materials = a.materials;
 		materials.forEach(function (b) {
-			m = materials.b;
-    	});
-    	if (m = 'wood') {
-    		console.log(a.title + ' is made of wood.')
-    	}
+			if (b = 'wood') {
+    		console.log(a.title) + ' is made of wood.'}
+     		}
+     	)
     });
 }
