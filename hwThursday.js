@@ -1054,11 +1054,6 @@ function all() {
 		console.log(materials[i]);
 		var j = materials[i].length;
 		console.log(j);
-		materials[j].every(function(material, index, array) {
-			
-			if (material = 'wood') {
-				return console.log('is made of wood.')
-			}
-		})
+		
 	}	
 }
