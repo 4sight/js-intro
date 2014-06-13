@@ -1048,16 +1048,14 @@ function all() {
 
 	// Item 3
 
-	materials = Array();
+	var materials = Array();
 	for (var i = 0; i < items.length; i++) {
 		materials[i] = items[i].materials;
-	}
-
-	for (var i = 0; i < items.length; i++) {
+		console.log(materials);
 		materials[i].every(function(material, index, array) {
 			if (material = 'wood') {
 				return console.log('is made of wood.')
 			}
 		})
-	}
+	}	
 }
