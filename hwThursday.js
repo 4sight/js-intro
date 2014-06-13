@@ -1046,36 +1046,17 @@ function all() {
 	}
 	console.log(items[i].title + ' costs \u00A3' + items[i].price);
 
-	// // Item 3
+	// Item 3
 
-	// var materials = Array();
-	// for (var i = 0; i < items.length; i++) {
-	// 	materials[i] = items[i].materials;
-	// }
-	// console.log(materials);
-	// function separator(element, index, array) {
-	// 	console.log(element);
-	// 	for (var j = 0; j < materials[i].length; j++) {
-	// 		if (material = 'wood') {
-	// 			return console.log(item.title[i] + ' is made of wood.')
-	// 		}
-	// 		else {
-	// 			null;
-	// 		}
-	// 	}
- 	//    materials.forEach(separator);
-	// }
-
-	// items.forEach(function (a) {
- 	//    	console.log(a.materials)
- 	// });
-
-    items.forEach(function (a) {
-    	return a.materials;
+	var materials = Array();
+	var m = Array();
+	items.forEach(function (a) {
+		materials = a.materials;
+		materials.forEach(function (b) {
+			m = materials.b;
+    	});
+    	if (m = 'wood') {
+    		console.log(items.title + ' is made of wood.')
+    	}
     });
-	a.forEach(function (search) {
-    		if (search = 'wood') {
-    			console.log(a.listing_id + ' is made of wood.')
-    		}
-    	});	
 }
