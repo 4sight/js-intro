@@ -1056,7 +1056,7 @@ function all() {
 			m = materials.b;
     	});
     	if (m = 'wood') {
-    		console.log(items.title + ' is made of wood.')
+    		console.log(a.title + ' is made of wood.')
     	}
     });
 }
