@@ -1044,24 +1044,38 @@ function all() {
 		i++;
 		search[i] = items[i].currency_code;
 	}
-	console.log(items[i].title + ' costs \£' + items[i].price);
+	console.log(items[i].title + ' costs \u00A3' + items[i].price);
 
-	// Item 3
+	// // Item 3
 
-	var materials = Array();
-	for (var i = 0; i < items.length; i++) {
-		materials[i] = items[i].materials;
-		var materialsLengths = materials[i].length;
-		for (var j = 0; j < materialsLengths; j++) {
-			materials[i].every(function(material, index, array) {
-			if (materials[i][j] = 'wood') {
-				return console.log(items[i].title + ' is made of wood.')
-			}
-			else {
-				return null;
-			}
-			return null;
-			})
-		}
-	}	
+	// var materials = Array();
+	// for (var i = 0; i < items.length; i++) {
+	// 	materials[i] = items[i].materials;
+	// }
+	// console.log(materials);
+	// function separator(element, index, array) {
+	// 	console.log(element);
+	// 	for (var j = 0; j < materials[i].length; j++) {
+	// 		if (material = 'wood') {
+	// 			return console.log(item.title[i] + ' is made of wood.')
+	// 		}
+	// 		else {
+	// 			null;
+	// 		}
+	// 	}
+ 	//    materials.forEach(separator);
+	// }
+
+	// items.forEach(function (a) {
+ 	//    	console.log(a.materials)
+ 	// });
+
+    items.forEach(function (a) {
+    	return a.materials;
+    });
+	a.forEach(function (search) {
+    		if (search = 'wood') {
+    			console.log(a.listing_id + ' is made of wood.')
+    		}
+    	});	
 }
