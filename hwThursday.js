@@ -1051,8 +1051,9 @@ function all() {
 	var materials = Array();
 	for (var i = 0; i < items.length; i++) {
 		materials[i] = items[i].materials;
-		console.log(materials);
+		console.log(materials[i]);
 		materials[i].every(function(material, index, array) {
+			
 			if (material = 'wood') {
 				return console.log('is made of wood.')
 			}
