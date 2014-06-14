@@ -1028,10 +1028,15 @@ function all() {
 	
 	// Item 1
 
-	var sum = 0;
-	for (var i = 0; i < items.length; i++) {
-		sum += items[i].price;
-	}
+	var prices = Array();
+	items.forEach(function (c, index) {
+		prices[index] = c.price;
+    });
+	var sum =
+	prices.reduce(function(a, b, index, array) {
+		return a + b;
+	});
+
 	var average = sum / items.length;
 	var averageRounded = +average.toFixed(2);
 	console.log('The average price is $' + averageRounded);
@@ -1053,8 +1058,9 @@ function all() {
 	items.forEach(function (a) {
 		materials = a.materials;
 		materials.forEach(function (b) {
-			if (materials = 'wood') {
-    		console.log(a.title) + ' is made of wood.'}
+			if (b = 'wood') {
+    		// console.log(a.title) + ' is made of wood.'
+    	}
      		}
      	)
     });
