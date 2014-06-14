@@ -1053,7 +1053,7 @@ function all() {
 	items.forEach(function (a) {
 		materials = a.materials;
 		materials.forEach(function (b) {
-			if (b = 'wood') {
+			if (materials = 'wood') {
     		console.log(a.title) + ' is made of wood.'}
      		}
      	)
