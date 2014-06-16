@@ -1038,7 +1038,7 @@ function all() {
 	});
 
 	var average = sum / items.length;
-	var averageRounded = +average.toFixed(2);
+	var averageRounded = Math.floor(average * 100)/100;
 	console.log('The average price is $' + averageRounded);
 
 	// Item 2
