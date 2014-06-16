@@ -1054,12 +1054,11 @@ function all() {
 	// Item 3
 
 	var materials = Array();
-	var m = Array();
 	items.forEach(function (a) {
 		materials = a.materials;
 		materials.forEach(function (b) {
-			if (b = 'wood') {
-    		// console.log(a.title) + ' is made of wood.'
+			if (b == 'wood') {
+    		console.log(a.title + ' is made of wood.');
     	}
      		}
      	)
